@@ -32,7 +32,7 @@ public class MainController {
         Jonny jonny=new Jonny();
         jonny.setIsm(ism);
         jonnyService.save(jonny);
-        return "redirect:/main";
+        return "redirect:/";
     }
 
 
